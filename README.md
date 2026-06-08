@@ -135,27 +135,105 @@ python -c "import torch; print(torch.cuda.is_available())"
 | Ctrl + Enter | Start Transcription |
 
 
+## ❓ FAQ
+
+**Q: "ffmpeg not found" error?**
+A: Install FFmpeg (see installation steps above)
+
+**Q: Slow transcription?**
+A: First run downloads models. Enable GPU for faster processing.
+
+**Q: "mel_filters.npz" error?**
+A: Run pip install --upgrade openai-whisper
+
+**Q: Can I transcribe 2-hour movies?**
+A: Yes, use "Base" or "Tiny" model with 8GB+ RAM.
+
+**Q: Does it work offline?**
+A: Yes, after first model download (1-3GB).
+
+
+## 🔧 Troubleshooting
+
+| Problem | Solution |
+|---------|----------|
+| pip not found | Reinstall Python with PATH option |
+| torch not found | Run pip install torch |
+| CUDA out of memory | Use smaller model (Tiny/Base) |
+| File not supported | Convert to MP3 or MP4 |
+| Permission denied | Run as administrator |
+
+
+## 📊 Model Comparison
+
+| Model |       Speed      |     Accuracy     |  RAM     |      Best For            |
+|-------|------------------|------------------|----------|--------------------------|
+| Tiny  |   ⚡Fastest      |    70%          |  1GB      |     Testing             |
+| Base  |  ⚡⚡Fast       |     85%          |  2GB      |     General Use         |
+| Small |   ⚡Medium       |     90%         |   3GB     |     Important meetings  |
+| Medium|   🐌 Slow        |     95%         |   5GB     |     Professional        |
+
+
+## 🛣️ Roadmap
+
+- [ ] Faster-Whisper support
+- [ ] Speaker diarization
+- [ ] DOCX export
+- [ ] Auto language detection
+- [ ] Real-time transcription
+
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create feature branch (git checkout -b feature/AmazingFeature)
+3. Commit changes (git commit -m 'Add AmazingFeature')
+4. Push to branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
+
+
+## 📝 License
+
+MIT License - Free for personal and commercial use
+
+
+## 👤 Author
+
+**Tech Post**
+
+- GitHub: @techpostdev
+- Project Link: https://github.com/techpostdev/speech-to-text
+
+
+## 🙏 Credits
+
+- OpenAI Whisper
+- PyTorch
+- FFmpeg
+
+
 ## 📁 Project Structure
-Whisper-Speech-To-Text-GUI/
+speech-to-text/
 │
-├── speech_to_text_gui.py    # Main application (run this)
-├── requirements.txt         # Python packages list
-├── README.md                # This file
-├── LICENSE                  # MIT License
-├── .gitignore               # Git ignore rules
+├── speech_to_text.py # Main application (run this)
+├── requirements.txt # Python packages list
+├── README.md # This file
+├── LICENSE # MIT License
+├── .gitignore # Git ignore rules
 │
-├── assets/                  # Images folder
-│   └── Screenshot_1.png     # App screenshot
+├── assets/ # Images folder
+│ └── Screenshot_1.png # App screenshot
 │
-└── docs/                    # Documentation folder
-    ├── installation.md
-    ├── usage.md
-    └── faq.md
+└── docs/ # Documentation folder
+├── installation.md
+├── usage.md
+└── faq.md
 
 
 <div align="center">
+
 ⭐ Star this repository if you find it useful! ⭐
 
-Made with ❤️ for everyone
+*Made with ❤️ for everyone*
 
 </div>
