@@ -22,6 +22,26 @@
 </p>
 
 
+## 🎥 Complete Video Tutorial
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID">
+    <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg" alt="Watch Tutorial" width="600">
+  </a>
+</p>
+
+<p align="center">
+  <b>▶️ Click the image above to watch the full tutorial</b>
+</p>
+
+- ✅ How to install Python & FFmpeg
+- ✅ Setting up the project step by step
+- ✅ Transcribing MP4/MP3 files
+- ✅ Batch processing multiple files
+- ✅ GPU acceleration setup (CUDA)
+- ✅ Real-time demo with different file formats
+
+
 # 📥 What can you transcribe?
 
 | If you have... | You can get... |
