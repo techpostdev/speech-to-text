@@ -28,7 +28,7 @@
 ## 🎥 Complete Video Tutorial
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID">
+  <a href="https://www.youtube.com/watch?v=Lq6KUg3rGSo">
     <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg" alt="Watch Tutorial" width="600">
   </a>
 </p>
